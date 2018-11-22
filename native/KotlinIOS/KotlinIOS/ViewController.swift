@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         label.center = CGPoint(x: 160, y: 285)
         label.textAlignment = .center
         label.font = label.font.withSize(25)
-        label.text = CommonKt.createApplicationScreenMessage()
         view.addSubview(label)
         
         label.text = CommonKt.getGuangZhouWeather().data.wendu
